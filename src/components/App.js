@@ -9,7 +9,7 @@ export default class App extends Component {
         return (
             <div className="catch-of-the-day">
                 <div className="main">
-                    <Header />
+                    <Header tagline="Fresh seafood market" />
                 </div>
                 <Order />
                 <Inventory />
